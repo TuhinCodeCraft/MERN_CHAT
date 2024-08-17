@@ -6,16 +6,18 @@ import messageRoutes from "./routes/message.routes.js"
 import cookieParser from "cookie-parser"
 import cors from "cors"
 
+dotenv.config()
 const app = express()
+
 const PORT = process.env.PORT || 5000
 
-dotenv.config()
-
 app.use(express.json())
-app.use("/api/auth", authRoutes)
-app.use("/api/messages", messageRoutes)
 app.use(cookieParser())
 app.use(cors({credentials:true}))
+
+
+app.use("/api/auth", authRoutes)
+app.use("/api/messages", messageRoutes)
 
 // app.get("/", (req, res) => {
 //     res.send("Server is ready")
