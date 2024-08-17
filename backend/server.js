@@ -3,6 +3,7 @@ import dotenv from "dotenv"
 import authRoutes from "./routes/auth.routes.js"
 import connectToMongoDB from "./db/index.js"
 import messageRoutes from "./routes/message.routes.js"
+import userRoutes from "./routes/user.routes.js"
 import cookieParser from "cookie-parser"
 import cors from "cors"
 
@@ -18,6 +19,7 @@ app.use(cors({credentials:true}))
 
 app.use("/api/auth", authRoutes)
 app.use("/api/messages", messageRoutes)
+app.use("/api/users", userRoutes)
 
 // app.get("/", (req, res) => {
 //     res.send("Server is ready")
