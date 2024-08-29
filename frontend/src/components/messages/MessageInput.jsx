@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { BsSendFill } from "react-icons/bs";
 import useSendMessage from "../../hooks/useSendMessage";
-import toast from "react-hot-toast";
 
 const MessageInput = () => {
 	const [message, setMessage] = useState("");
@@ -9,10 +8,7 @@ const MessageInput = () => {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
-		if (!message){
-			toast.error("Message can't be empty");
-			return;
-		}
+		if (!message) return;
 		await sendMessage(message);
 		setMessage("");
 	};
@@ -34,5 +30,4 @@ const MessageInput = () => {
 		</form>
 	);
 };
-
 export default MessageInput;
