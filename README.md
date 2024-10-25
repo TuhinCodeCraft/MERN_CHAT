@@ -2,7 +2,6 @@
 
 This is a fully-featured chat application built using the MERN (MongoDB, Express, React, Node.js) stack. The application allows users to sign up, log in, send and receive messages, and much more.
 
-**[Live Preview](https://mern-chat-app-k2nz.onrender.com/)** - Check out the live version of the application.
 
 ## Features
 
@@ -90,9 +89,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
