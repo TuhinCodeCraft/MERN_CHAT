@@ -2,6 +2,7 @@
 
 This is a fully-featured chat application built using the MERN (MongoDB, Express, React, Node.js) stack. The application allows users to sign up, log in, send and receive messages, and much more.
 
+[Live Preview](https://mern-chat-app-k2nz.onrender.com/)
 
 ## Features
 
