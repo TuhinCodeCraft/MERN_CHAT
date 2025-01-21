@@ -94,6 +94,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- This project was developed by [Tuhin Ghosh].
+- This project was developed by [Tuhin Ghosh](https://www.linkedin.com/in/tuhin-ghosh-bb4607291/).
 - Inspired by various open-source chat applications.
 - Special thanks to the developers of the libraries and frameworks used in this project.
